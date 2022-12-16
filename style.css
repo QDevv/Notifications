@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 60%, 98%);
+}
+
+.main-container{
+    padding: 25px;
+    padding-bottom:0;
+    width: 41vw;
+    margin: auto;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1.4px solid gray; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.Notifs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* border: 2px solid black; */
+    font-size: 13px;
+}
+.Notifs p{
+    width: 17px;
+    height: 15px;
+    background-color:  hsl(219, 85%, 26%);
+    border-radius: 3px;
+    color: hsl(0, 0%, 100%);
+    font-size: 9px;
+    text-align: center;
+     /* display: flex;
+    justify-content: center; 
+    align-items: center;  */
+}
+.Notifs p.is-active::after{
+    /* background-color: brown; */
+}
+
+.Unread-Notifs{
+    width:100%;
+    height:70px;
+    background-color:hsl(211, 68%, 94%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    height: fit-content;
+    /* border: 2px solid red; */
+    margin-bottom: 6px;
+    border-radius: 4px ;
+}
+.Unread-Notifs .mark-wrapper img{
+    width: 100%;
+    height: 100%;
+  
+}
+
+.Unread-Notifs .mark-wrapper{
+    width: 40px ;
+    /* border: 2px solid green; */
+    /* margin-right: auto; */
+}
+.mark-notif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    /* border: 2px solid purple; */
+    
+}
+.mark-notif div{
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    background-color: hsl(1, 90%, 64%);
+    transform: translateY(20%);
+}
+
+.Unread-Notifs-Wrapper{
+    /* height: fit-content; */
+    /* border: 2px solid cornflowerblue; */
+}
+.mark p:last-child{
+    font-weight: 600;
+    color: hsl(219, 12%, 42%);
+}
+.Jacob p:last-child{
+    font-weight: 700;
+    color: hsl(219, 85%, 26%);
+}
+.Rizky-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    /* border: 2px solid black; */
+    font-size: 12px;
+}
+.Rizky-notif{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    /* border: 2px solid red */
+}
+.Rizky-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.Rizky-wrapper{
+    width: 70px;
+}
+.Rizky-message{
+    border: 1px solid gray;
+    padding: 9px;
+    margin-top: 4px;
+}
+.Kimberly-container,.Nathan-container,.Ana-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.kimberly-notif, .Nathan-notif, .Ana-notifs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.chess-wrapper img, .kimberly-wrapper img, .Nathan-wrapper img, .Ana-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.chess-wrapper{
+    margin-left: auto;
+}
+.chess-wrapper, .kimberly-wrapper, .Nathan-wrapper, .Ana-wrapper{
+    width: 40px;
+}
+
+/* jsssssssssss */
+
+.whiteBackground{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.Removepoint{
+  display: none;
+}
+.change{
+    
+}
+
