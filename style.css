@@ -70,9 +70,7 @@ header{
 }
 
 .Unread-Notifs .mark-wrapper{
-    width: 40px ;
-    /* border: 2px solid green; */
-    /* margin-right: auto; */
+    width: 40px;
 }
 .mark-notif{
     display: flex;
@@ -168,5 +166,56 @@ header{
 }
 .change{
     
+}
+
+@media screen and (max-width: 1260px) {
+    .mark-notif{
+        /* border: 2px solid red; */
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: flex-start;
+        width: 21vw;
+    }
+    .Rizky-notif{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4px;
+        border: 2px solid red;
+        flex-wrap: wrap;
+        width: 21vw;
+        /* margin-left: px; */
+
+    }
+    .Rizky-container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        font-size: 12px;
+    }
+    .Rizky-wrapper{
+        width: 135px;
+    }
+   .kimberly-notif, .Nathan-notif,.Ana-notifs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+   }
+   .Nathan-wrapper{
+    width: 70px;
+
+   }
+   .mark-all{
+    font-size: 10px;
+   }
+   .Notifs{
+    font-size: 10px;
+   }
+
 }
 
